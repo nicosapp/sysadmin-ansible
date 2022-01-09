@@ -3,5 +3,22 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
+  },
+  "yaml.validate": true,
+  "yaml.format.enable": true,
+  "[yaml]":{
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  },
+  "files.associations": {
+    "*.html.j2": "html",
+    "*.conf.j2": "conf",
   }
 }
